@@ -1,4 +1,4 @@
-# RetailStoreDiscountAssessment
+# RetailStoreBillingDiscountSystem
 Project for Retail Store Billing to apply the discount.
 It is having below use cases
 	1. If the user is an employee of the store,	he gets	a 30%	discount
@@ -35,11 +35,11 @@ Project setup
 
 5. Right click on project -> Run as -> Maven Insatll
 
-6. Right click on RetailStoreDiscountAssessmentApplication.java -> Run As Java Application
+6. Right click on RetailStoreBillingDiscountSystemApplication.java-> Run As Java Application
 
 Once the server is started run below link in browser
 
-http://localhost:8080/RetailStoreDiscountAssessment/swagger-ui.html#!
+http://localhost:8080/RetailStoreBillingDiscountSystem/swagger-ui.html#!
 
 7. Click on billing-controller -> Click on /bill
 
@@ -48,13 +48,6 @@ http://localhost:8080/RetailStoreDiscountAssessment/swagger-ui.html#!
 9. The response will be displayed and could see the discount and total Amount details.
 
 
-Steps to get the code coverage
-------------------------------
-1. Right click on RetailStoreDiscountAssessmentApplicationTests.java and click on Coverage As -> Java Application 
-
-Out of scope:
-DAO and DTO since DB is not using
-
 Code coverage:
-93.4%
+92.7%
 
